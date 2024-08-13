@@ -1,0 +1,38 @@
+/* Color Styles */
+body{
+    background-color: #fdf0e0; /* Set the color of the page background */
+}
+h1,h2,h3{ 
+   color:rgb(98, 1, 98); /* Set the color of <h1>,<h2>,and <h3> */
+}
+.item{
+    background-color:rgba(139, 131, 255, 0.404);
+    border-style:solid;
+    border-color:rgba(155, 102, 251, 0.829);
+}
+/* Creates a border around element and sets color within element  */
+
+/* Font Styles */
+body{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+/* Formats text font within the body elements */
+h1,h2,h3{ 
+        font-family: "Jacquard 24", system-ui;
+        font-weight: 500;
+        font-style: bold;
+}
+/* Formats text font within <h1>,<h2>,and <h3> */
+
+/* Font Size */
+h1{
+    font-size:3rem
+}
+h2{
+    font-size:2rem
+}
+/* Formats font size within <h1> and <h2> */
